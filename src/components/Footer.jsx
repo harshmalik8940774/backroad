@@ -15,21 +15,19 @@ const Footer = () => {
       <ul class="footer-icons">
         {socialItems.map((item) => (
           <li>
-            <a
-              href={item.link}
-              target="_blank"
-              class="footer-icon"
-            >
+            <a href={item.link} target="_blank" class="footer-icon">
               <i class={item.icon}></i>
             </a>
           </li>
         ))}
-
-        
       </ul>
       <p class="copyright">
         copyright &copy; Backroads travel tours company
         <span id="date"></span> all rights reserved
+      </p>
+      <p class="copyright">
+        Developed &Maintained by Harsh Malik (2300320120103)
+        <span id="date"></span>
       </p>
     </footer>
   );
